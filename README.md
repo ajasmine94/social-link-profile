@@ -23,7 +23,7 @@ This is a solution to the [Social Links Profile challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/ajasmine94/social-link-profile)
-- Live Site URL: [Add live site URL here](https://blogcardpreview-1023.netlify.app/)
+- Live Site URL: [Add live site URL here](https://social-link-preview-1025.netlify.app/)
 
 ## My process
 
