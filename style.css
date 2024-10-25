@@ -1,0 +1,109 @@
+@font-face {
+  font-family: inter-bold;
+  src: url("./assets/fonts/static/inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: inter-regular;
+  src: url("./assets/fonts/static/inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: inter-semibold;
+  src: url("./assets/fonts/static/inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: inter;
+  src: url("./assets/fonts/inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+  margin: 0;
+
+  width: auto;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "inter-regular", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+.profile-card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.profile {
+  justify-items: center;
+}
+
+.name {
+  padding: 10px;
+  font-family: "inter-semibold", sans-serif;
+}
+
+.location {
+  font-size: 10px;
+  color: hsl(75, 94%, 57%);
+  padding-top: 5px;
+}
+
+.description {
+  font-size: 12px;
+  padding: 15px;
+}
+
+.profile img {
+  max-width: 64px;
+  border-radius: 100%;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  row-gap: 15px;
+  font-family: "inter-semibold", sans-serif;
+}
+
+.link {
+  padding: 12px;
+  min-width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.link:active,
+.link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  display: none;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
